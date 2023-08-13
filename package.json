@@ -1,0 +1,17 @@
+{
+  "name": "testsrun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "staging": "cypress run --e2e --env deployment-env=staging --headed",
+    "e2e:dev": "cypress run --e2e --env deployment-env=dev --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.17.3"
+  }
+}
